@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Flex Box ke-1</title>
+    <header>
+        <div class="jumbotron">
+            <h1>KATAK</h1>
+            <p>Binatang yang hidup di dua alam yaitu di darat dan di air</p>
+        </div>
+        <link rel="stylesheet" href="style.css">
+
+    </header>
+</head>
+<main>
+    <nav>
+        <ul>
+            <li><a href="#arti">Arti Katak</a></li>
+            <li><a href="#namaLain">Nama Lain</a></li>
+            <li><a href="#ciri">Ciri Khusus</a></li>
+            <li><a href="#kartun">Gambar Kartun</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="wadah-satu">
+        <div class="konten-utama card ">
+            <h2>Kehidupan Katak</h2>
+            <p>Katak mengawali hidupnya sebagai telur yang diletakkan induknya di air, di sarang busa, atau di tempat-tempat basah lainnya. Beberapa jenis katak pegunungan menyimpan telurnya di antara lumut-lumut yang basah di pepohonan. Sementara jenis
+                katak hutan yang lain menitipkan telurnya di punggung katak jantan yang lembap, yang akan selalu menjaga dan membawanya hingga menetas bahkan hingga menjadi katak kecil.Sekali bertelur katak bisa menghasilkan 5000-20000 telur, tergantung
+                dari kualitas induk dan berlangsung sebanyak tiga kali dalam setahun</p>
+            <p>Telur-telur katak dan katak menetas menjadi berudu atau kecebong (b. Inggris: tadpole), yang bertubuh mirip ikan gendut, bernapas dengan insang dan selama beberapa lama hidup di air. Perlahan-lahan akan tumbuh kaki belakang, yang kemudian
+                diikuti dengan tumbuhnya kaki depan, menghilangnya ekor dan bergantinya insang dengan paru-paru. Setelah masanya, berudu ini akan melompat ke darat sebagai katak atau katak kecil. </p>
+            <p>Katak dan katak kawin pada waktu-waktu tertentu, misalnya pada saat bulan mati atau pada ketika menjelang hujan. Pada saat itu katak-katak jantan akan berbunyi-bunyi untuk memanggil betinanya, dari tepian atau tengah perairan. Beberapa jenisnya,
+                seperti katak tegalan (Fejervarya limnocharis) dan kintel lekat alias belentung (Kaloula baleata), kerap membentuk ‘grup nyanyi’, di mana beberapa hewan jantan berkumpul berdekatan dan berbunyi bersahut-sahutan. Suara keras katak dihasilkan
+                oleh kantung suara yang terletak di sekitar lehernya, yang akan menggembung besar manakala digunakan. </p>
+        </div>
+
+
+        <aside class="card">
+            <figure>
+                <div class="diri">
+                    <img src="img/kartun aku.jpg">
+                </div>
+                <figcaption>
+                    <h4>Contact :</h4>
+                </figcaption>
+                <tr>
+                    <th>Nama</th>
+                    <td><em> Arif Hardono</em></td>
+                </tr><br>
+                <tr>
+                    <th>Alamat</th>
+                    <td>Jl. Karangsana No. 22</td><br>
+                    <td>Semarang</td><br>
+                </tr>
+                <tr>
+                    <th>No. HP</th>
+                    <td>081326531485</td><br>
+                </tr>
+                <tr>
+                    <th>email</th>
+                    <td>arifhster@gmail.com</td>
+                </tr>
+                </table>
+    </div>
+    </figure>
+    </aside>
+
+
+
+    <div class="wadah-dua card">
+        <div class="spek satu">
+            <div id="arti">
+                <article>
+                    <h4>Arti Katak</h4>
+                    <p>Katak (bahasa Inggris: frog) adalah binatang amfibi pemakan serangga yang hidup di air tawar atau di daratan, berkulit licin, berwarna hijau atau merah kecokelat-cokelatan, kaki belakang lebih panjang, pandai melompat dan berenang
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div class="spek dua">
+            <div id="namaLain">
+                <article>
+                    <h4>Nama lain</h4>
+                    <p>Kodok, nama lain dari bangkong (bahasa Inggris: toad), memiliki kulit yang kasar dan berbintil-bintil atau berbingkul-bingkul, kerap kali kering, dan kaki belakangnya sering pendek saja, sehingga kebanyakan bangsa kodok kurang pandai
+                        melompat jauh.
+                    </p>
+                </article>
+            </div>
+        </div>
+
+        <div class="spek tiga">
+            <div id="ciri">
+                <article>
+                    <h4>Ciri Khusus</h4>
+                    <p>Ciri khusus katak sebenarnya bisa dilihat langsung dari bentuk badannya. Semua ciri khusus katak, merupakan ciri fisik yang dapat kamu sadari ketika melihatnya. Diantara ciri khusus katak tersebut terletak pada mata, kaki, hingga lidahnya.</p>
+                </article>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="kartun">
+        <div class="wadah-tiga card">
+            <div class="gambar">
+
+                <img id="gambarFrog1" src="img/frog1.png">
+
+                <button class="prev1" onclick="changeGambar1_1()">&#10094</button>
+                <button class="next1" onclick="changeGambar1_2()">&#10095</button>
+            </div>
+
+            <div class="gambar">
+                <img id="gambarFrog2" src="img/frog2.png">
+                <button class="prev2" onclick="changeGambar2_1()">&#10094</button>
+                <button class="next2" onclick="changeGambar2_2()">&#10095</button>
+            </div>
+
+            <div class="gambar">
+                <img id="gambarFrog3" src="img/frog3.png">
+                <button class="prev3" onclick="changeGambar3_1()">&#10094</button>
+                <button class="next3" onclick="changeGambar3_2()">&#10095</button>
+            </div>
+
+            <div class="gambar">
+                <img id="gambarFrog4" src="img/frog4.png">
+                <button class="prev4" onclick="changeGambar4_1()">&#10094</button>
+                <button class="next4" onclick="changeGambar4_2()">&#10095</button>
+            </div>
+            <div class="gambar">
+                <img id="gambarFrog5" src="img/frog5.png">
+                <button class="prev5" onclick="changeGambar5_1()">&#10094</button>
+                <button class="next5" onclick="changeGambar5_2()">&#10095</button>
+            </div>
+            <div class="gambar">
+                <img id="gambarFrog6" src="img/frog6.png">
+                <button class="prev6" onclick="changeGambar6_1()">&#10094</button>
+                <button class="next6" onclick="changeGambar6_2()">&#10095</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>Submission HTML CSS Javascript - Dicoding &#169; Aug 2020, Arif Hardono </footer>
+</main>
+<script src="main.js"></script>
+
+</html>

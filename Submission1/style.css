@@ -1,0 +1,141 @@
+.jumbotron {
+    font-size: 20px;
+    padding: 2px;
+    background-color: #2dd4f1;
+    text-align: center;
+    color: midnightblue;
+    font-family: fantasy;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(132, 161, 223);
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #00a2c6;
+    padding: 5px;
+}
+
+nav a {
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.wadah-satu {
+    max-width: 960px;
+    margin: 0px auto;
+    background-color: rgb(134, 216, 216);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(90, 81, 223);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.konten-utama {
+    flex: 75%;
+}
+
+aside {
+    margin: 0 0 0 10px auto;
+    flex: 25%;
+    overflow: hidden;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.wadah-dua {
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.diri img {
+    width: 100%;
+}
+
+.diri {
+    width: 60%;
+}
+
+.spek {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.spek.satu {
+    background-color: rgb(156, 238, 156);
+}
+
+.spek.dua {
+    background-color: rgb(236, 240, 39);
+}
+
+.spek.tiga {
+    background-color: rgb(224, 140, 179);
+}
+
+.wadah-tiga {
+    max-width: 960px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.gambar img {
+    width: 100%;
+}
+
+.gambar {
+    width: 50%;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+@media(min-width:600px) {
+    .wadah-dua {
+        display: flex;
+        justify-content: space-around;
+    }
+    aside {
+        width: 25%;
+    }
+    .spek {
+        width: 30%;
+    }
+    .gambar {
+        width: 25%;
+    }
+}
